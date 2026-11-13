@@ -21,6 +21,21 @@ Mini-projet du cours *Machine Learning & Deep Learning* — Eugenia School, MSc 
 
 Validation croisée 5 plis du Random Forest : R² = 0,82 ± 0,04.
 
+## Historique des versions
+
+- **Octobre 2025** : analyse initiale du mini-projet (rapport HTML, joint en annexe du dossier de certification).
+- **Novembre 2026** : notebooks ré-exécutés de bout en bout pour le dossier de certification RNCP, avec une graine aléatoire fixée (42), une validation croisée et un notebook Deep Learning en plus.
+
+Le découpage train / test et quelques réglages diffèrent légèrement de la version d'octobre 2025, d'où de petits écarts de chiffres. Les conclusions sont inchangées.
+
+| Indicateur | Oct. 2025 | Nov. 2026 |
+| --- | ---: | ---: |
+| R² Random Forest | 88 % | 87,6 % |
+| R² régression multiple | 51 % | 77,9 % |
+| Précision de la régression logistique | 95 % | 92,2 % |
+
+Ce sont les chiffres de novembre 2026 qui font foi.
+
 ## Reproduire
 
 ```bash
